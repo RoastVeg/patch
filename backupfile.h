@@ -17,6 +17,8 @@
  * 
  */
 
+#define __UNCONST(a)    ((void *)(unsigned long)(const void *)(a))
+
 /* When to make backup files. */
 enum backup_type {
 	/* Never make backups. */

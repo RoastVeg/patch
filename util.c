@@ -30,7 +30,7 @@
  * behaviour
  */
 
-#include <sys/cdefs.h>
+#include <bsd/sys/cdefs.h>
 __RCSID("$NetBSD: util.c,v 1.28 2018/06/18 18:33:31 christos Exp $");
 
 #include <sys/param.h>
@@ -42,10 +42,10 @@ __RCSID("$NetBSD: util.c,v 1.28 2018/06/18 18:33:31 christos Exp $");
 #include <libgen.h>
 #include <signal.h>
 #include <stdarg.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
+#include <bsd/stdlib.h>
+#include <bsd/stdio.h>
+#include <bsd/string.h>
+#include <bsd/unistd.h>
 
 #include "common.h"
 #include "util.h"

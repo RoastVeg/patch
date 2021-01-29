@@ -30,19 +30,21 @@
  * behaviour
  */
 
-#include <sys/cdefs.h>
+#define _GNU_SOURCE
+
+#include <bsd/sys/cdefs.h>
 __RCSID("$NetBSD: patch.c,v 1.29 2011/09/06 18:25:14 joerg Exp $");
 
 #include <sys/types.h>
 #include <sys/stat.h>
 
 #include <ctype.h>
-#include <getopt.h>
+#include <bsd/getopt.h>
 #include <limits.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <unistd.h>
+#include <bsd/stdio.h>
+#include <bsd/string.h>
+#include <bsd/stdlib.h>
+#include <bsd/unistd.h>
 
 #include "common.h"
 #include "util.h"

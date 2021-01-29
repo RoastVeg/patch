@@ -33,14 +33,14 @@
  * SUCH DAMAGE.
  */
 
-#include <sys/cdefs.h>
+#include <bsd/sys/cdefs.h>
 __RCSID("$NetBSD: mkpath.c,v 1.1 2008/09/19 18:33:34 joerg Exp $");
 
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <err.h>
+#include <bsd/err.h>
 #include <errno.h>
-#include <string.h>
+#include <bsd/string.h>
 
 int	mkpath(char *);
 

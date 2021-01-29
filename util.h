@@ -30,6 +30,14 @@
  * behaviour
  */
 
+#include <bsd/sys/cdefs.h>
+
+#ifndef __dead
+#define __dead __attribute__((__noreturn__))
+#endif
+
+#define __UNCONST(a)    ((void *)(unsigned long)(const void *)(a))
+
 char		*fetchname(const char *, bool *, int);
 char		*checked_in(char *);
 int		backup_file(const char *);

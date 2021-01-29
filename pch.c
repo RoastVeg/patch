@@ -30,7 +30,7 @@
  * behaviour
  */
 
-#include <sys/cdefs.h>
+#include <bsd/sys/cdefs.h>
 __RCSID("$NetBSD: pch.c,v 1.30 2018/06/18 18:33:31 christos Exp $");
 
 #include <sys/types.h>
@@ -39,10 +39,10 @@ __RCSID("$NetBSD: pch.c,v 1.30 2018/06/18 18:33:31 christos Exp $");
 #include <ctype.h>
 #include <libgen.h>
 #include <limits.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
+#include <bsd/stdio.h>
+#include <bsd/stdlib.h>
+#include <bsd/string.h>
+#include <bsd/unistd.h>
 
 #include "common.h"
 #include "util.h"
